@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 52418-1010)(type Legacy)(uri "$(KIPRJMOD)/52418-1010/52418-1010.mod")(options "")(descr ""))
+)
