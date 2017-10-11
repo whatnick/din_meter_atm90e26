@@ -1,4 +1,124 @@
-Cmp-Mod V01 Created by PcbNew   date = 10/10/2017 5:33:24 PM
+Cmp-Mod V01 Created by PcbNew   date = 12/10/2017 12:10:27 AM
+
+BeginCmp
+TimeStamp = 59DF8236
+Path = /59DE1500
+Reference = LOGO1;
+ValeurCmp = Logo_Open_Hardware_Small;
+IdModule  = Symbols:OSHW-Logo2_7.3x6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DF8209
+Path = /59DE12B1
+Reference = G1;
+ValeurCmp = LOGO;
+IdModule  = Whatnick_logo:Whatnick_logo;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DEEBED
+Path = /59DE2E00
+Reference = C22;
+ValeurCmp = 33n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DEEBBC
+Path = /59DE2D66
+Reference = C21;
+ValeurCmp = 33n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DEE9AB
+Path = /59DE3084
+Reference = C24;
+ValeurCmp = 33n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DEE97A
+Path = /59DE307E
+Reference = C23;
+ValeurCmp = 33n;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DEE5A9
+Path = /59DE2E6A
+Reference = R8;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DEE578
+Path = /59DE3078
+Reference = R9;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DEE547
+Path = /59DE2CC6
+Reference = R7;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DEE516
+Path = /59DE308A
+Reference = R10;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59CFE8F3
+Path = /59CBC1DC
+Reference = J2;
+ValeurCmp = MMD1;
+IdModule  = Connectors:GS3;
+EndCmp
+
+BeginCmp
+TimeStamp = 59CFE8C8
+Path = /59CBCB17
+Reference = J1;
+ValeurCmp = USEL;
+IdModule  = Connectors:GS3;
+EndCmp
+
+BeginCmp
+TimeStamp = 59CFE91E
+Path = /59CBC275
+Reference = J3;
+ValeurCmp = MMD0;
+IdModule  = Connectors:GS3;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DDE02A
+Path = /59D4E4AC
+Reference = Y1;
+ValeurCmp = Crystal_Small;
+IdModule  = Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DDDFDC
+Path = /59DB8266
+Reference = Y2;
+ValeurCmp = Crystal_Small;
+IdModule  = Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm;
+EndCmp
 
 BeginCmp
 TimeStamp = 59DDC7EA
@@ -185,27 +305,11 @@ IdModule  = Connectors:GS3;
 EndCmp
 
 BeginCmp
-TimeStamp = 59DCA238
-Path = /59DB8266
-Reference = Y2;
-ValeurCmp = Crystal_Small;
-IdModule  = Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm;
-EndCmp
-
-BeginCmp
 TimeStamp = 59DCA164
 Path = /59DB83F8
 Reference = M2;
 ValeurCmp = ATM90E26_ATM90E26;
 IdModule  = Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 59DBC03E
-Path = /59D4E4AC
-Reference = Y1;
-ValeurCmp = Crystal_Small;
-IdModule  = Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm;
 EndCmp
 
 BeginCmp
@@ -262,30 +366,6 @@ Path = /59C71D35
 Reference = C1;
 ValeurCmp = 10u;
 IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = 59CFE91E
-Path = /59CBC275
-Reference = J3;
-ValeurCmp = MMD0;
-IdModule  = Connectors:GS3;
-EndCmp
-
-BeginCmp
-TimeStamp = 59CFE8F3
-Path = /59CBC1DC
-Reference = J2;
-ValeurCmp = MMD1;
-IdModule  = Connectors:GS3;
-EndCmp
-
-BeginCmp
-TimeStamp = 59CFE8C8
-Path = /59CBCB17
-Reference = J1;
-ValeurCmp = USEL;
-IdModule  = Connectors:GS3;
 EndCmp
 
 BeginCmp

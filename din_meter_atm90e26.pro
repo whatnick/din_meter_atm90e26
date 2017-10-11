@@ -1,4 +1,4 @@
-update=10/10/2017 5:33:38 PM
+update=12/10/2017 12:31:54 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -57,5 +57,7 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=ATM90E26_Featherwing
+LibName31=whatnick
+LibName32=graphic_symbols
 [general]
 version=1
