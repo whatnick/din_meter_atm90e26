@@ -593,11 +593,11 @@ F 3 "" H 6100 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 10800 1500 3    60   Input ~ 0
-GND_ISO
+GND_CPU
 Text GLabel 10700 1500 3    60   Input ~ 0
-3V3_ISO
+3V3_CPU
 Text GLabel 10000 1500 3    60   BiDi ~ 0
-3V3_IN
+3V3_ISO
 Text GLabel 9900 1500 3    60   BiDi ~ 0
 GNDREF
 Text GLabel 10100 1500 3    60   Output ~ 0
@@ -1467,4 +1467,24 @@ Text GLabel 4500 1100 1    60   Output ~ 0
 I2P_1
 Text GLabel 5100 1100 1    60   Output ~ 0
 I2N_1
+Text GLabel 7700 2000 3    60   Output ~ 0
+3V3_ISO
+Text GLabel 7800 2000 3    60   Output ~ 0
+VP_0
+Text GLabel 8000 2000 3    60   Output ~ 0
+VP_1
+Text GLabel 8400 2000 3    60   BiDi ~ 0
+GNDREF
+Text GLabel 9200 2000 3    60   Output ~ 0
+3V3_CPU
+Text GLabel 8800 2000 3    60   Output ~ 0
+GND_CPU
+Text GLabel 8200 1000 1    60   Output ~ 0
+I1P_0
+Text GLabel 8100 1000 1    60   Output ~ 0
+I1N_0
+Text GLabel 8000 1000 1    60   Output ~ 0
+I1P_1
+Text GLabel 7900 1000 1    60   Output ~ 0
+I1N_1
 $EndSCHEMATC

@@ -2594,7 +2594,7 @@
   (gr_line (start 159.893 80.01) (end 160.528 79.375) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 155.829 80.01) (end 155.194 80.645) (layer Edge.Cuts) (width 0.15))
   (dimension 28.956 (width 0.3) (layer F.Fab)
-    (gr_text "28.956 mm" (at 146.05 50.72) (layer F.Fab) (tstamp 59DF5AC5)
+    (gr_text "28.956 mm" (at 146.05 50.72) (layer F.Fab) (tstamp 59DF630D)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 160.528 59.309) (xy 160.528 49.37)))
