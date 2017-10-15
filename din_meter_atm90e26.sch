@@ -264,6 +264,7 @@ F 0 "Y1" H 900 1725 50  0000 C CNN
 F 1 "Crystal_Small" H 900 1634 50  0000 C CNN
 F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm" H 900 1500 50  0001 C CNN
 F 3 "" H 900 1500 50  0001 C CNN
+F 4 "5XFA08192123TF80Q3" H 900 1500 60  0001 C CNN "manf#"
 	1    900  1500
 	1    0    0    -1  
 $EndComp
@@ -272,9 +273,10 @@ L C_Small C6
 U 1 1 59D4E65E
 P 750 1700
 F 0 "C6" H 658 1654 50  0000 R CNN
-F 1 "C_Small" H 658 1745 50  0000 R CNN
+F 1 "20p" H 658 1745 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0402" H 750 1700 50  0001 C CNN
 F 3 "" H 750 1700 50  0001 C CNN
+F 4 "04025A200JAT2A" H 750 1700 60  0001 C CNN "manf#"
 	1    750  1700
 	-1   0    0    1   
 $EndComp
@@ -283,7 +285,7 @@ L C_Small C7
 U 1 1 59D4E6D0
 P 1100 1700
 F 0 "C7" H 1008 1654 50  0000 R CNN
-F 1 "C_Small" H 1008 1745 50  0000 R CNN
+F 1 "20p" H 1008 1745 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0402" H 1100 1700 50  0001 C CNN
 F 3 "" H 1100 1700 50  0001 C CNN
 	1    1100 1700
@@ -312,6 +314,7 @@ F 0 "J5" V 10500 850 50  0000 L CNN
 F 1 "CONN_01X10" V 10600 950 50  0000 L CNN
 F 2 "52418-1010:SHDR10W60P200_1X10_2150X400X335P" H 10350 1100 50  0001 C CNN
 F 3 "" H 10350 1100 50  0001 C CNN
+F 4 "52418-1010" H 10350 1100 60  0001 C CNN "manf#"
 	1    10350 1100
 	0    -1   -1   0   
 $EndComp
@@ -331,7 +334,7 @@ L C_Small C13
 U 1 1 59DB826C
 P 1600 1700
 F 0 "C13" H 1508 1654 50  0000 R CNN
-F 1 "C_Small" H 1508 1745 50  0000 R CNN
+F 1 "20p" H 1508 1745 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0402" H 1600 1700 50  0001 C CNN
 F 3 "" H 1600 1700 50  0001 C CNN
 	1    1600 1700
@@ -342,7 +345,7 @@ L C_Small C14
 U 1 1 59DB8272
 P 1950 1700
 F 0 "C14" H 1858 1654 50  0000 R CNN
-F 1 "C_Small" H 1858 1745 50  0000 R CNN
+F 1 "20p" H 1858 1745 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0402" H 1950 1700 50  0001 C CNN
 F 3 "" H 1950 1700 50  0001 C CNN
 	1    1950 1700
@@ -371,6 +374,7 @@ F 0 "M2" H 3150 5904 45  0000 C CNN
 F 1 "ATM90E26_ATM90E26" H 3150 5820 45  0000 C CNN
 F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 3100 4950 60  0001 C CNN
 F 3 "" H 3100 4950 60  0001 C CNN
+F 4 "ATM90E26-YU-B" H 3100 4950 60  0001 C CNN "manf#"
 	1    3100 4950
 	1    0    0    -1  
 $EndComp
@@ -382,6 +386,7 @@ F 0 "C9" H 2242 4196 50  0000 L CNN
 F 1 "100n" H 2200 4050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 2150 4150 50  0001 C CNN
 F 3 "" H 2150 4150 50  0001 C CNN
+F 4 "GRM155R71C104KA88D" H 2150 4150 60  0001 C CNN "manf#"
 	1    2150 4150
 	1    0    0    -1  
 $EndComp
@@ -415,6 +420,7 @@ F 0 "C8" H 1859 4104 50  0000 R CNN
 F 1 "10u" H 2150 4250 50  0000 R CNN
 F 2 "Capacitors_SMD:C_0603" H 1950 4150 50  0001 C CNN
 F 3 "" H 1950 4150 50  0001 C CNN
+F 4 "GRM155B11A333KA01D" H 1950 4150 60  0001 C CNN "manf#"
 	1    1950 4150
 	-1   0    0    1   
 $EndComp
@@ -592,23 +598,23 @@ F 3 "" H 6100 4800 50  0001 C CNN
 	1    6100 4800
 	0    1    1    0   
 $EndComp
-Text GLabel 10800 1500 3    60   Input ~ 0
-GND_CPU
-Text GLabel 10700 1500 3    60   Input ~ 0
-3V3_CPU
-Text GLabel 10000 1500 3    60   BiDi ~ 0
+Text GLabel 10700 1500 3    60   BiDi ~ 0
+GND_ISO
+Text GLabel 10800 1500 3    60   BiDi ~ 0
 3V3_ISO
-Text GLabel 9900 1500 3    60   BiDi ~ 0
-GNDREF
-Text GLabel 10100 1500 3    60   Output ~ 0
+Text GLabel 9900 1500 3    60   Input ~ 0
+3V3_CPU
+Text GLabel 10000 1500 3    60   Input ~ 0
+GND_CPU
+Text GLabel 10500 1500 3    60   Output ~ 0
 SI/RX
-Text GLabel 10200 1500 3    60   Input ~ 0
+Text GLabel 10400 1500 3    60   Input ~ 0
 SO/TX
 Text GLabel 10300 1500 3    60   Output ~ 0
 SCLK
-Text GLabel 10400 1500 3    60   Output ~ 0
+Text GLabel 10200 1500 3    60   Output ~ 0
 CS_0
-Text GLabel 10500 1500 3    60   Output ~ 0
+Text GLabel 10600 1500 3    60   Output ~ 0
 CS_1
 $Comp
 L R_Small R2
@@ -640,6 +646,7 @@ F 0 "R1" H 2609 1546 50  0000 L CNN
 F 1 "1K" H 2609 1455 50  0000 L CNN
 F 2 "Resistors_SMD:R_0402" H 2550 1500 50  0001 C CNN
 F 3 "" H 2550 1500 50  0001 C CNN
+F 4 "CRCW04021K00FKED" H 2550 1500 60  0001 C CNN "manf#"
 	1    2550 1500
 	1    0    0    -1  
 $EndComp
@@ -942,6 +949,230 @@ F 3 "" H 4800 1850 50  0001 C CNN
 	1    4800 1850
 	1    0    0    -1  
 $EndComp
+Text GLabel 3700 1750 3    60   Input ~ 0
+I2P_0_IN
+Text GLabel 4300 1750 3    60   Input ~ 0
+I2N_0_IN
+Text GLabel 4500 1750 3    60   Input ~ 0
+I2P_1_IN
+Text GLabel 5100 1750 3    60   Input ~ 0
+I2N_1_IN
+Text GLabel 3700 1100 1    60   Output ~ 0
+I2P_0
+Text GLabel 4300 1100 1    60   Output ~ 0
+I2N_0
+Text GLabel 4500 1100 1    60   Output ~ 0
+I2P_1
+Text GLabel 5100 1100 1    60   Output ~ 0
+I2N_1
+Text GLabel 7700 2000 3    60   Output ~ 0
+3V3_ISO
+Text GLabel 7800 2000 3    60   Output ~ 0
+VP_0
+Text GLabel 8000 2000 3    60   Output ~ 0
+VP_1
+Text GLabel 8400 2000 3    60   Output ~ 0
+GND_ISO
+Text GLabel 9200 2000 3    60   Output ~ 0
+3V3_CPU
+Text GLabel 8800 2000 3    60   Output ~ 0
+GND_CPU
+Text GLabel 8200 1000 1    60   Output ~ 0
+I1P_0_IN
+Text GLabel 8100 1000 1    60   Output ~ 0
+I1N_0_IN
+Text GLabel 8000 1000 1    60   Output ~ 0
+I1P_1_IN
+Text GLabel 7900 1000 1    60   Output ~ 0
+I1N_1_IN
+Text GLabel 8800 1000 1    60   Output ~ 0
+I2P_0_IN
+Text GLabel 9000 1000 1    60   Output ~ 0
+I2N_0_IN
+Text GLabel 9200 1000 1    60   Output ~ 0
+I2P_1_IN
+Text GLabel 9400 1000 1    60   Output ~ 0
+I2N_1_IN
+$Comp
+L L_Core_Ferrite_Small L1
+U 1 1 59E3432C
+P 2750 2450
+F 0 "L1" V 2572 2450 50  0000 C CNN
+F 1 "GND_SUP" V 2663 2450 50  0000 C CNN
+F 2 "Inductors_SMD:L_0402" H 2750 2450 50  0001 C CNN
+F 3 "" H 2750 2450 50  0001 C CNN
+	1    2750 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L L_Core_Ferrite_Small L2
+U 1 1 59E343F4
+P 3350 2450
+F 0 "L2" V 3172 2450 50  0000 C CNN
+F 1 "3V3_SUP" V 3263 2450 50  0000 C CNN
+F 2 "Inductors_SMD:L_0402" H 3350 2450 50  0001 C CNN
+F 3 "" H 3350 2450 50  0001 C CNN
+	1    3350 2450
+	0    1    1    0   
+$EndComp
+Text GLabel 3550 2450 1    60   Input ~ 0
+3V3_ISO
+Text GLabel 2950 2450 1    60   Input ~ 0
+GND_ISO
+$Comp
+L GNDREF #PWR022
+U 1 1 59E35ED3
+P 2550 2350
+F 0 "#PWR022" H 2550 2100 50  0001 C CNN
+F 1 "GNDREF" H 2555 2177 50  0000 C CNN
+F 2 "" H 2550 2350 50  0001 C CNN
+F 3 "" H 2550 2350 50  0001 C CNN
+	1    2550 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR023
+U 1 1 59E3756A
+P 3100 2350
+F 0 "#PWR023" H 3100 2200 50  0001 C CNN
+F 1 "+3V3" H 3115 2523 50  0000 C CNN
+F 2 "" H 3100 2350 50  0001 C CNN
+F 3 "" H 3100 2350 50  0001 C CNN
+	1    3100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDREF #PWR024
+U 1 1 59E3964B
+P 1550 6900
+F 0 "#PWR024" H 1550 6650 50  0001 C CNN
+F 1 "GNDREF" H 1555 6727 50  0000 C CNN
+F 2 "" H 1550 6900 50  0001 C CNN
+F 3 "" H 1550 6900 50  0001 C CNN
+	1    1550 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR025
+U 1 1 59E396B6
+P 1900 6900
+F 0 "#PWR025" H 1900 6650 50  0001 C CNN
+F 1 "GNDD" V 1904 6790 50  0000 R CNN
+F 2 "" H 1900 6900 50  0001 C CNN
+F 3 "" H 1900 6900 50  0001 C CNN
+	1    1900 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P ZX_0
+U 1 1 59E39C00
+P 4000 6350
+F 0 "ZX_0" V 3954 6538 50  0000 L CNN
+F 1 "ZX_0" V 4045 6538 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 6350 50  0001 C CNN
+F 3 "" H 4200 6350 50  0001 C CNN
+	1    4000 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P IRQ_0
+U 1 1 59E39DC7
+P 4000 6450
+F 0 "IRQ_0" V 3954 6637 50  0000 L CNN
+F 1 "IRQ_0" V 4045 6637 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 6450 50  0001 C CNN
+F 3 "" H 4200 6450 50  0001 C CNN
+	1    4000 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P CF2_0
+U 1 1 59E39E43
+P 4000 6550
+F 0 "CF2_0" V 3954 6737 50  0000 L CNN
+F 1 "CF2_0" V 4045 6737 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 6550 50  0001 C CNN
+F 3 "" H 4200 6550 50  0001 C CNN
+	1    4000 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P CF1_0
+U 1 1 59E39F41
+P 4000 6650
+F 0 "CF1_0" V 3954 6837 50  0000 L CNN
+F 1 "CF1_0" V 4045 6837 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 6650 50  0001 C CNN
+F 3 "" H 4200 6650 50  0001 C CNN
+	1    4000 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P WARN_0
+U 1 1 59E39FC1
+P 4000 6750
+F 0 "WARN_0" V 3954 6937 50  0000 L CNN
+F 1 "WARN_0" V 4045 6937 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4200 6750 50  0001 C CNN
+F 3 "" H 4200 6750 50  0001 C CNN
+	1    4000 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P ZX_1
+U 1 1 59E3AC2D
+P 5900 6350
+F 0 "ZX_1" V 5854 6538 50  0000 L CNN
+F 1 "ZX_1" V 5945 6538 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6100 6350 50  0001 C CNN
+F 3 "" H 6100 6350 50  0001 C CNN
+	1    5900 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P IRQ_1
+U 1 1 59E3AC33
+P 5900 6450
+F 0 "IRQ_1" V 5854 6637 50  0000 L CNN
+F 1 "IRQ_1" V 5945 6637 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6100 6450 50  0001 C CNN
+F 3 "" H 6100 6450 50  0001 C CNN
+	1    5900 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P CF2_1
+U 1 1 59E3AC39
+P 5900 6550
+F 0 "CF2_1" V 5854 6737 50  0000 L CNN
+F 1 "CF2_1" V 5945 6737 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6100 6550 50  0001 C CNN
+F 3 "" H 6100 6550 50  0001 C CNN
+	1    5900 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P CF1_1
+U 1 1 59E3AC3F
+P 5900 6650
+F 0 "CF1_1" V 5854 6837 50  0000 L CNN
+F 1 "CF1_1" V 5945 6837 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6100 6650 50  0001 C CNN
+F 3 "" H 6100 6650 50  0001 C CNN
+	1    5900 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P WARN_1
+U 1 1 59E3AC45
+P 5900 6750
+F 0 "WARN_1" V 5854 6937 50  0000 L CNN
+F 1 "WARN_1" V 5945 6937 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6100 6750 50  0001 C CNN
+F 3 "" H 6100 6750 50  0001 C CNN
+	1    5900 6750
+	0    1    1    0   
+$EndComp
 Connection ~ 3150 1300
 Connection ~ 3150 1750
 Connection ~ 2550 1750
@@ -1135,7 +1366,7 @@ Wire Wire Line
 	2000 4850 2600 4850
 Connection ~ 2450 4450
 Wire Wire Line
-	2450 4550 2450 4450
+	2450 4450 2450 4650
 Wire Wire Line
 	2600 4550 2450 4550
 Connection ~ 2150 4450
@@ -1157,11 +1388,11 @@ Wire Wire Line
 Wire Wire Line
 	2600 4350 2400 4350
 Wire Wire Line
-	2350 4600 2150 4600
+	1600 4600 2350 4600
 Wire Wire Line
-	2350 4650 2350 4600
+	2350 4600 2350 4650
 Wire Wire Line
-	2600 4650 2350 4650
+	2350 4650 2600 4650
 Wire Wire Line
 	1600 4800 2350 4800
 Wire Wire Line
@@ -1289,7 +1520,7 @@ Wire Wire Line
 	6450 4850 7050 4850
 Connection ~ 6900 4450
 Wire Wire Line
-	6900 4550 6900 4450
+	6900 4450 6900 4650
 Wire Wire Line
 	7050 4550 6900 4550
 Connection ~ 6600 4450
@@ -1311,11 +1542,11 @@ Wire Wire Line
 Wire Wire Line
 	7050 4350 6850 4350
 Wire Wire Line
-	6800 4600 6600 4600
+	6050 4600 6800 4600
 Wire Wire Line
-	6800 4650 6800 4600
+	6800 4600 6800 4650
 Wire Wire Line
-	7050 4650 6800 4650
+	6800 4650 7050 4650
 Wire Wire Line
 	6100 4800 6800 4800
 Wire Wire Line
@@ -1451,40 +1682,90 @@ Connection ~ 3700 1250
 Connection ~ 4300 1250
 Connection ~ 4500 1250
 Connection ~ 5100 1250
-Text GLabel 3700 1750 3    60   Input ~ 0
-I2P_0_IN
-Text GLabel 4300 1750 3    60   Input ~ 0
-I2N_0_IN
-Text GLabel 4500 1750 3    60   Input ~ 0
-I2P_1_IN
-Text GLabel 5100 1750 3    60   Input ~ 0
-I2N_1_IN
-Text GLabel 3700 1100 1    60   Output ~ 0
-I2P_0
-Text GLabel 4300 1100 1    60   Output ~ 0
-I2N_0
-Text GLabel 4500 1100 1    60   Output ~ 0
-I2P_1
-Text GLabel 5100 1100 1    60   Output ~ 0
-I2N_1
-Text GLabel 7700 2000 3    60   Output ~ 0
-3V3_ISO
-Text GLabel 7800 2000 3    60   Output ~ 0
-VP_0
-Text GLabel 8000 2000 3    60   Output ~ 0
-VP_1
-Text GLabel 8400 2000 3    60   BiDi ~ 0
-GNDREF
-Text GLabel 9200 2000 3    60   Output ~ 0
-3V3_CPU
-Text GLabel 8800 2000 3    60   Output ~ 0
-GND_CPU
-Text GLabel 8200 1000 1    60   Output ~ 0
-I1P_0_IN
-Text GLabel 8100 1000 1    60   Output ~ 0
-I1N_0_IN
-Text GLabel 8000 1000 1    60   Output ~ 0
-I1P_1_IN
-Text GLabel 7900 1000 1    60   Output ~ 0
-I1N_1_IN
+Wire Wire Line
+	2850 2450 2950 2450
+Wire Wire Line
+	3450 2450 3550 2450
+Wire Wire Line
+	3250 2450 3100 2450
+Wire Wire Line
+	2650 2450 2550 2450
+Wire Wire Line
+	2550 2450 2550 2350
+Wire Wire Line
+	3100 2450 3100 2350
+Wire Wire Line
+	1550 6900 1550 6800
+Wire Wire Line
+	1550 6800 1900 6800
+Wire Wire Line
+	1900 6800 1900 6900
+Wire Wire Line
+	4000 6350 3800 6350
+Wire Wire Line
+	4000 6450 3800 6450
+Wire Wire Line
+	4000 6550 3800 6550
+Wire Wire Line
+	4000 6650 3800 6650
+Wire Wire Line
+	4000 6750 3800 6750
+Wire Wire Line
+	5900 6350 5750 6350
+Wire Wire Line
+	5900 6450 5750 6450
+Wire Wire Line
+	5900 6550 5750 6550
+Wire Wire Line
+	5900 6650 5750 6650
+Wire Wire Line
+	5900 6750 5750 6750
+Text GLabel 3800 6350 0    60   Input ~ 0
+ZX_0
+Text GLabel 3800 6450 0    60   Input ~ 0
+IRQ_0
+Text GLabel 3800 6550 0    60   Input ~ 0
+CF2_0
+Text GLabel 3800 6650 0    60   Input ~ 0
+CF1_0
+Text GLabel 3800 6750 0    60   Input ~ 0
+WARN_0
+Text GLabel 5750 6350 0    60   Input ~ 0
+ZX_1
+Text GLabel 5750 6450 0    60   Input ~ 0
+IRQ_1
+Text GLabel 5750 6550 0    60   Input ~ 0
+CF2_1
+Text GLabel 5750 6650 0    60   Input ~ 0
+CF1_1
+Text GLabel 5750 6750 0    60   Input ~ 0
+WARN_1
+$Comp
+L +3V3 #PWR026
+U 1 1 59E4CCB7
+P 6050 4600
+F 0 "#PWR026" H 6050 4450 50  0001 C CNN
+F 1 "+3V3" H 6065 4773 50  0000 C CNN
+F 2 "" H 6050 4600 50  0001 C CNN
+F 3 "" H 6050 4600 50  0001 C CNN
+	1    6050 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR027
+U 1 1 59E4CF1A
+P 1600 4600
+F 0 "#PWR027" H 1600 4450 50  0001 C CNN
+F 1 "+3V3" H 1615 4773 50  0000 C CNN
+F 2 "" H 1600 4600 50  0001 C CNN
+F 3 "" H 1600 4600 50  0001 C CNN
+	1    1600 4600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2150 4600
+Connection ~ 2450 4550
+Connection ~ 2450 4650
+Connection ~ 6600 4600
+Connection ~ 6900 4550
+Connection ~ 6900 4650
 $EndSCHEMATC

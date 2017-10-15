@@ -1,4 +1,100 @@
-Cmp-Mod V01 Created by PcbNew   date = 12/10/2017 12:10:27 AM
+Cmp-Mod V01 Created by PcbNew   date = 16/10/2017 2:14:23 AM
+
+BeginCmp
+TimeStamp = 59E4766B
+Path = /59E3AC33
+Reference = IRQ_1;
+ValeurCmp = IRQ_1;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E4765B
+Path = /59E3AC2D
+Reference = ZX_1;
+ValeurCmp = ZX_1;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E47641
+Path = /59E3AC45
+Reference = WARN_1;
+ValeurCmp = WARN_1;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E47627
+Path = /59E3AC3F
+Reference = CF1_1;
+ValeurCmp = CF1_1;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E4760D
+Path = /59E3AC39
+Reference = CF2_1;
+ValeurCmp = CF2_1;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E45C1E
+Path = /59E39C00
+Reference = ZX_0;
+ValeurCmp = ZX_0;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E45C04
+Path = /59E39DC7
+Reference = IRQ_0;
+ValeurCmp = IRQ_0;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E45BF4
+Path = /59E39E43
+Reference = CF2_0;
+ValeurCmp = CF2_0;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E45BC6
+Path = /59E39F41
+Reference = CF1_0;
+ValeurCmp = CF1_0;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E45BB6
+Path = /59E39FC1
+Reference = WARN_0;
+ValeurCmp = WARN_0;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E376C9
+Path = /59E343F4
+Reference = L2;
+ValeurCmp = 3V3_SUP;
+IdModule  = Inductors_SMD:L_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59E359D7
+Path = /59E3432C
+Reference = L1;
+ValeurCmp = GND_SUP;
+IdModule  = Inductors_SMD:L_0402;
+EndCmp
 
 BeginCmp
 TimeStamp = 59DF8236
@@ -252,7 +348,7 @@ BeginCmp
 TimeStamp = 59DCA577
 Path = /59DB826C
 Reference = C13;
-ValeurCmp = C_Small;
+ValeurCmp = 20p;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
@@ -260,7 +356,7 @@ BeginCmp
 TimeStamp = 59DCA546
 Path = /59DB8272
 Reference = C14;
-ValeurCmp = C_Small;
+ValeurCmp = 20p;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
@@ -316,7 +412,7 @@ BeginCmp
 TimeStamp = 59D5284B
 Path = /59D4E6D0
 Reference = C7;
-ValeurCmp = C_Small;
+ValeurCmp = 20p;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
@@ -324,7 +420,7 @@ BeginCmp
 TimeStamp = 59D5281A
 Path = /59D4E65E
 Reference = C6;
-ValeurCmp = C_Small;
+ValeurCmp = 20p;
 IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
