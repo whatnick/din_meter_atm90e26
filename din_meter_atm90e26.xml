@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\din_meter_atm90e26\din_meter_atm90e26.sch</source>
-    <date>16/10/2017 1:57:38 AM</date>
+    <date>23/10/2017 10:58:28 PM</date>
     <tool>Eeschema (2017-06-19 revision 6733101c6)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -246,6 +246,9 @@
     <comp ref="C15">
       <value>33n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="manf#">GRM155B11A333KA01D</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59DE5FB1</tstamp>
@@ -385,6 +388,9 @@
     <comp ref="L1">
       <value>GND_SUP</value>
       <footprint>Inductors_SMD:L_0402</footprint>
+      <fields>
+        <field name="manf#">BLM15AG100SN1D</field>
+      </fields>
       <libsource lib="device" part="L_Core_Ferrite_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59E3432C</tstamp>
@@ -392,6 +398,9 @@
     <comp ref="L2">
       <value>3V3_SUP</value>
       <footprint>Inductors_SMD:L_0402</footprint>
+      <fields>
+        <field name="manf#">BLM15AG100SN1D</field>
+      </fields>
       <libsource lib="device" part="L_Core_Ferrite_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59E343F4</tstamp>
@@ -712,14 +721,14 @@
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
-    <library logical="graphic_symbols">
-      <uri>C:\Program Files\KiCad\share\kicad\library\graphic_symbols.lib</uri>
-    </library>
     <library logical="ATM90E26_Featherwing">
       <uri>C:\Users\Tisham\Documents\kicad\din_meter_atm90e26\ATM90E26_Featherwing.lib</uri>
     </library>
     <library logical="whatnick">
       <uri>C:\Users\Tisham\Documents\kicad\din_meter_atm90e26\whatnick.lib</uri>
+    </library>
+    <library logical="graphic_symbols">
+      <uri>C:\Program Files\KiCad\share\kicad\library\graphic_symbols.lib</uri>
     </library>
   </libraries>
   <nets>
