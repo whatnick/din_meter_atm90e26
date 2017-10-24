@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\din_meter_atm90e26\din_meter_atm90e26.sch</source>
-    <date>23/10/2017 10:58:28 PM</date>
+    <date>25/10/2017 12:11:19 AM</date>
     <tool>Eeschema (2017-06-19 revision 6733101c6)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -103,7 +103,7 @@
       <value>20p</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
-        <field name="manf#">04025A200JAT2A</field>
+        <field name="manf#">GRM1555C1H200JA01D</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -185,7 +185,7 @@
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
-        <field name="manf#">GRM155B11A333KA01D</field>
+        <field name="manf#">GRM188R61A106KE69D</field>
       </fields>
       <libsource lib="device" part="CP1_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -721,14 +721,14 @@
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
-    <library logical="ATM90E26_Featherwing">
-      <uri>C:\Users\Tisham\Documents\kicad\din_meter_atm90e26\ATM90E26_Featherwing.lib</uri>
-    </library>
     <library logical="whatnick">
       <uri>C:\Users\Tisham\Documents\kicad\din_meter_atm90e26\whatnick.lib</uri>
     </library>
     <library logical="graphic_symbols">
       <uri>C:\Program Files\KiCad\share\kicad\library\graphic_symbols.lib</uri>
+    </library>
+    <library logical="ATM90E26_Featherwing">
+      <uri>C:\Users\Tisham\Documents\kicad\din_meter_atm90e26\ATM90E26_Featherwing.lib</uri>
     </library>
   </libraries>
   <nets>
