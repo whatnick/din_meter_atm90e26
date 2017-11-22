@@ -1,0 +1,33 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,(2017-09-19 revision dddaa7e69)-makepkg*%
+%TF.CreationDate,2017-11-22T17:56:27+10:30*%
+%TF.ProjectId,din_meter_atm90e26,64696E5F6D657465725F61746D393065,rev?*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,32.150*%
+%TJ.B.Size.Y,31.392*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Outer,0.150*%
+%TJ.D.PadToTrack.Outer,0.150*%
+%TJ.D.TrackToTrack.Outer,0.150*%
+%TJ.D.MinLineWidth.Outer,0.150*%
+%TJ.D.TrackToRegion.Outer,0.200*%
+%TJ.D.RegionToRegion.Outer,0.200*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,din_meter_atm90e26-F.Cu.gtl*%
+%TJ.L."Copper,L2,Bot",Positive,din_meter_atm90e26-B.Cu.gbl*%
+%TJ.L."SolderPaste,Bot",Positive,din_meter_atm90e26-B.Paste.gbp*%
+%TJ.L."SolderPaste,Top",Positive,din_meter_atm90e26-F.Paste.gtp*%
+%TJ.L."Legend,Bot",Positive,din_meter_atm90e26-B.SilkS.gbo*%
+%TJ.L."Legend,Top",Positive,din_meter_atm90e26-F.SilkS.gto*%
+%TJ.L."SolderMask,Bot",Negative,din_meter_atm90e26-B.Mask.gbs*%
+%TJ.L."SolderMask,Top",Negative,din_meter_atm90e26-F.Mask.gts*%
+%TJ.L."Profile",Positive,din_meter_atm90e26-Edge.Cuts.gm1*%
+M02*
