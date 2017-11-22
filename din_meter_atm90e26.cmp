@@ -1,4 +1,44 @@
-Cmp-Mod V01 Created by PcbNew   date = 16/10/2017 2:14:23 AM
+Cmp-Mod V01 Created by PcbNew   date = 22/11/2017 5:50:45 PM
+
+BeginCmp
+TimeStamp = 5A167F79
+Path = /59DE1710
+Reference = SYM1;
+ValeurCmp = SYM_Flash_Small;
+IdModule  = Whatnick_logo:Fsilk_HV;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1571DD
+Path = /59DE1500
+Reference = LOGO1;
+ValeurCmp = Logo_Open_Hardware_Small;
+IdModule  = Symbols:OSHW-Logo2_7.3x6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A1571CC
+Path = /59DE12B1
+Reference = G1;
+ValeurCmp = LOGO;
+IdModule  = Whatnick_logo:Whatnick_logo;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DCA164
+Path = /59DB83F8
+Reference = M2;
+ValeurCmp = ATM90E26_ATM90E26;
+IdModule  = Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 59DCA577
+Path = /59DB826C
+Reference = C13;
+ValeurCmp = 20p;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
 
 BeginCmp
 TimeStamp = 59E4766B
@@ -94,22 +134,6 @@ Path = /59E3432C
 Reference = L1;
 ValeurCmp = GND_SUP;
 IdModule  = Inductors_SMD:L_0402;
-EndCmp
-
-BeginCmp
-TimeStamp = 59DF8236
-Path = /59DE1500
-Reference = LOGO1;
-ValeurCmp = Logo_Open_Hardware_Small;
-IdModule  = Symbols:OSHW-Logo2_7.3x6mm_SilkScreen;
-EndCmp
-
-BeginCmp
-TimeStamp = 59DF8209
-Path = /59DE12B1
-Reference = G1;
-ValeurCmp = LOGO;
-IdModule  = Whatnick_logo:Whatnick_logo;
 EndCmp
 
 BeginCmp
@@ -345,14 +369,6 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 59DCA577
-Path = /59DB826C
-Reference = C13;
-ValeurCmp = 20p;
-IdModule  = Capacitors_SMD:C_0402;
-EndCmp
-
-BeginCmp
 TimeStamp = 59DCA546
 Path = /59DB8272
 Reference = C14;
@@ -398,14 +414,6 @@ Path = /59DB8448
 Reference = J6;
 ValeurCmp = USEL;
 IdModule  = Connectors:GS3;
-EndCmp
-
-BeginCmp
-TimeStamp = 59DCA164
-Path = /59DB83F8
-Reference = M2;
-ValeurCmp = ATM90E26_ATM90E26;
-IdModule  = Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm;
 EndCmp
 
 BeginCmp
