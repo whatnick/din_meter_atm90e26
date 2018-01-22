@@ -835,7 +835,7 @@ U 1 1 59DE1710
 P 10400 4400
 F 0 "SYM1" V 10310 4400 50  0001 C CNN
 F 1 "SYM_Flash_Small" V 10490 4400 50  0001 C CNN
-F 2 "Symbols:Symbol_HighVoltage_Type2_CopperTop_VerySmall" H 10400 4375 50  0001 C CNN
+F 2 "Whatnick_logo:Fsilk_HV" H 10400 4375 50  0001 C CNN
 F 3 "" H 10800 4300 50  0001 C CNN
 	1    10400 4400
 	1    0    0    -1  
