@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-09-19 revision dddaa7e69)-makepkg*
-G04 #@! TF.CreationDate,2017-12-07T22:45:55+10:30*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2018-01-07 revision 47989ccfc)-makepkg*
+G04 #@! TF.CreationDate,2018-01-22T20:28:46+10:30*
 G04 #@! TF.ProjectId,din_meter_atm90e26,64696E5F6D657465725F61746D393065,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (2017-09-19 revision dddaa7e69)-makepkg) date 12/07/17 22:45:55*
+G04 Created by KiCad (PCBNEW (2018-01-07 revision 47989ccfc)-makepkg) date 01/22/18 20:28:46*
 %MOMM*%
 %LPD*%
 G01*
@@ -20,9 +20,9 @@ G04 APERTURE LIST*
 %ADD16R,1.875000X1.875000*%
 %ADD17C,1.875000*%
 %ADD18R,1.050000X1.100000*%
-%ADD19C,0.950000*%
-%ADD20R,0.950000X4.900000*%
-%ADD21R,0.950000X3.900000*%
+%ADD19C,3.850000*%
+%ADD20R,3.850000X7.800000*%
+%ADD21R,3.850000X6.800000*%
 G04 APERTURE END LIST*
 D10*
 X149810000Y-73875000D03*
