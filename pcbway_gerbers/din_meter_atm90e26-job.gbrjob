@@ -1,33 +1,128 @@
-G04 Gerber job file with board parameters*
-%TF.FileFunction,JobInfo*%
-%TF.Part,SinglePCB*%
-G04 Single PCB fabrication instructions*
-%TF.GenerationSoftware,KiCad,Pcbnew,(2018-01-07 revision 47989ccfc)-makepkg*%
-%TF.CreationDate,2018-01-22T22:43:32+10:30*%
-%TF.ProjectId,din_meter_atm90e26,64696E5F6D657465725F61746D393065,rev?*%
-%MOMM*%
-G04 Overall board parameters*
-%TJ.B_Size_X,32.150*%
-%TJ.B_Size_Y,31.392*%
-%TJ.B_LayerNum,2*%
-%TJ.B_Overall_Thickness,1.600*%
-%TJ.B_Legend_Present,Both*%
-%TJ.B_SolderMask_Present,Both*%
-G04 board design rules*
-%TJ.D_PadToPad_Out,0.150*%
-%TJ.D_PadToTrack_Out,0.150*%
-%TJ.D_TrackToTrack_Out,0.150*%
-%TJ.D_MinLineWidth_Out,0.150*%
-%TJ.D_TrackToRegion_Out,0.200*%
-%TJ.D_RegionToRegion_Out,0.200*%
-G04 Layer Structure*
-%TJ.L_"Copper,L1,Top",Positive,din_meter_atm90e26-F.Cu.gtl*%
-%TJ.L_"Copper,L2,Bot",Positive,din_meter_atm90e26-B.Cu.gbl*%
-%TJ.L_"SolderPaste,Bot",Positive,din_meter_atm90e26-B.Paste.gbp*%
-%TJ.L_"SolderPaste,Top",Positive,din_meter_atm90e26-F.Paste.gtp*%
-%TJ.L_"Legend,Bot",Positive,din_meter_atm90e26-B.SilkS.gbo*%
-%TJ.L_"Legend,Top",Positive,din_meter_atm90e26-F.SilkS.gto*%
-%TJ.L_"SolderMask,Bot",Negative,din_meter_atm90e26-B.Mask.gbs*%
-%TJ.L_"SolderMask,Top",Negative,din_meter_atm90e26-F.Mask.gts*%
-%TJ.L_"Profile",Positive,din_meter_atm90e26-Edge.Cuts.gm1*%
-M02*
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "(5.1.5)-3"
+    },
+    "CreationDate":  "2020-03-16T23:26:29+11:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "din_meter_atm90e26",
+      "GUID": "64696e5f-6d65-4746-9572-5f61746d3930",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 32.150,
+      "Y": 31.392
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.150,
+      "PadToTrack":  0.150,
+      "TrackToTrack":  0.150,
+      "MinLineWidth":  0.150,
+      "TrackToRegion":  0.200,
+      "RegionToRegion":  0.200
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "din_meter_atm90e26-F_Cu.gtl",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "din_meter_atm90e26-B_Cu.gbl",
+      "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "din_meter_atm90e26-F_Paste.gtp",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "din_meter_atm90e26-B_Paste.gbp",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "din_meter_atm90e26-F_SilkS.gto",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "din_meter_atm90e26-B_SilkS.gbo",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "din_meter_atm90e26-F_Mask.gts",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "din_meter_atm90e26-B_Mask.gbs",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "din_meter_atm90e26-Edge_Cuts.gm1",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
+    }
+  ]
+}
