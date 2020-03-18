@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP PCIx1
-D Connector, double row, 02x18, pin header
-K connector
-$ENDCMP
-#
-#End Doc Library
